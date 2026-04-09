@@ -75,6 +75,39 @@
           "buildTransitive/Microsoft.Playwright.targets": {}
         }
       },
+      "Microsoft.Playwright.NUnit/1.58.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NET.Test.Sdk": "17.8.0",
+          "Microsoft.Playwright": "1.58.0",
+          "Microsoft.Playwright.TestAdapter": "1.58.0",
+          "NUnit": "3.13.2",
+          "NUnit3TestAdapter": "4.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Playwright.NUnit.dll": {
+            "related": ".runtimeconfig.json"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Playwright.NUnit.dll": {
+            "related": ".runtimeconfig.json"
+          }
+        }
+      },
+      "Microsoft.Playwright.TestAdapter/1.58.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Playwright": "1.58.0",
+          "Microsoft.TestPlatform.ObjectModel": "17.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Playwright.TestAdapter.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Playwright.TestAdapter.dll": {}
+        }
+      },
       "Microsoft.TestPlatform.ObjectModel/17.11.1": {
         "type": "package",
         "dependencies": {
@@ -1027,6 +1060,36 @@
         "microsoft.playwright.nuspec"
       ]
     },
+    "Microsoft.Playwright.NUnit/1.58.0": {
+      "sha512": "x96vsQh5W9KYsoxJXUEazLzcr2QLV+mqASM88yQhEmVPTufByrgCu1pAV0x4lL7f3XiILO6H8OMbIUMcAwE2Bg==",
+      "type": "package",
+      "path": "microsoft.playwright.nunit/1.58.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/net462/Microsoft.Playwright.NUnit.dll",
+        "lib/netcoreapp3.1/Microsoft.Playwright.NUnit.dll",
+        "lib/netcoreapp3.1/Microsoft.Playwright.NUnit.runtimeconfig.json",
+        "microsoft.playwright.nunit.1.58.0.nupkg.sha512",
+        "microsoft.playwright.nunit.nuspec"
+      ]
+    },
+    "Microsoft.Playwright.TestAdapter/1.58.0": {
+      "sha512": "mEWc9BOVb2b4koGBz9xZjyHstclS/xkWmCFC/hDE3ru+NvLE2NCRvWJ8f/RmCVFHN9MlW56JyZqGHkfSbQemdA==",
+      "type": "package",
+      "path": "microsoft.playwright.testadapter/1.58.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/netstandard2.0/Microsoft.Playwright.TestAdapter.dll",
+        "microsoft.playwright.testadapter.1.58.0.nupkg.sha512",
+        "microsoft.playwright.testadapter.nuspec"
+      ]
+    },
     "Microsoft.TestPlatform.ObjectModel/17.11.1": {
       "sha512": "E2jZqAU6JeWEVsyOEOrSW1o1bpHLgb25ypvKNB/moBXPVsFYBPd/Jwi7OrYahG50J83LfHzezYI+GaEkpAotiA==",
       "type": "package",
@@ -1514,6 +1577,7 @@
     "net9.0": [
       "Microsoft.NET.Test.Sdk >= 17.11.1",
       "Microsoft.Playwright >= 1.58.0",
+      "Microsoft.Playwright.NUnit >= 1.58.0",
       "NUnit >= 4.2.2",
       "NUnit.Analyzers >= 4.3.0",
       "NUnit3TestAdapter >= 4.6.0",
@@ -1575,6 +1639,10 @@
             "version": "[17.11.1, )"
           },
           "Microsoft.Playwright": {
+            "target": "Package",
+            "version": "[1.58.0, )"
+          },
+          "Microsoft.Playwright.NUnit": {
             "target": "Package",
             "version": "[1.58.0, )"
           },

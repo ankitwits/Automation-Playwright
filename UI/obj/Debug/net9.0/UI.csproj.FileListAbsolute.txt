@@ -468,3 +468,6 @@ C:\Users\ankit\Documents\Projects\AutomationFramework\UI\obj\Debug\net9.0\refint
 C:\Users\ankit\Documents\Projects\AutomationFramework\UI\obj\Debug\net9.0\UI.pdb
 C:\Users\ankit\Documents\Projects\AutomationFramework\UI\obj\Debug\net9.0\UI.genruntimeconfig.cache
 C:\Users\ankit\Documents\Projects\AutomationFramework\UI\obj\Debug\net9.0\ref\UI.dll
+C:\Users\ankit\Documents\Projects\AutomationFramework\UI\bin\Debug\net9.0\Microsoft.Playwright.NUnit.dll
+C:\Users\ankit\Documents\Projects\AutomationFramework\UI\bin\Debug\net9.0\Microsoft.Playwright.TestAdapter.dll
+C:\Users\ankit\Documents\Projects\AutomationFramework\UI\obj\Debug\net9.0\UI.sourcelink.json
