@@ -1,12 +1,5 @@
-<<<<<<< HEAD
 using  Microsoft.Playwright;
 using NUnit.Framework;
-=======
-using Microsoft.Playwright;
-using Microsoft.Playwright.NUnit;
-
-
->>>>>>> basic-feature
 
 public  class  Locator
 {
@@ -22,7 +15,6 @@ public  class  Locator
 
         await page.GotoAsync("https://books-pwakit.appspot.com/");
         //await page.PauseAsync();
-<<<<<<< HEAD
         await page.Locator("book-app[apptitle='BOOKS'] #input").FillAsync("Example");
         await page.PauseAsync();
 
@@ -33,18 +25,6 @@ public  class  Locator
 
 
         
-=======
-
-        // find the text box in shadow dom and fill it
-        await page.Locator("book-app[apptitle='BOOKS'] #input").FillAsync("Example");
-        await page.PauseAsync();
-
-        // get the text from the page and do assertion 
-
-       // string text = await page.Locator("book-app[apptitle='BOOKS'] .books-desc").TextContentAsync();
-       
- 
->>>>>>> basic-feature
 
 
 
