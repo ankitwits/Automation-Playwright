@@ -1,3 +1,9 @@
+C:\Users\ankit\Documents\Projects\AutomationFramework\UI\obj\Debug\net9.0\UI.csproj.AssemblyReference.cache
+C:\Users\ankit\Documents\Projects\AutomationFramework\UI\obj\Debug\net9.0\UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ankit\Documents\Projects\AutomationFramework\UI\obj\Debug\net9.0\UI.AssemblyInfoInputs.cache
+C:\Users\ankit\Documents\Projects\AutomationFramework\UI\obj\Debug\net9.0\UI.AssemblyInfo.cs
+C:\Users\ankit\Documents\Projects\AutomationFramework\UI\obj\Debug\net9.0\UI.csproj.CoreCompileInputs.cache
+C:\Users\ankit\Documents\Projects\AutomationFramework\UI\obj\Debug\net9.0\UI.sourcelink.json
 C:\Users\ankit\Documents\Projects\AutomationFramework\UI\bin\Debug\net9.0\testhost.dll
 C:\Users\ankit\Documents\Projects\AutomationFramework\UI\bin\Debug\net9.0\testhost.exe
 C:\Users\ankit\Documents\Projects\AutomationFramework\UI\bin\Debug\net9.0\appsettings.json
@@ -382,6 +388,8 @@ C:\Users\ankit\Documents\Projects\AutomationFramework\UI\bin\Debug\net9.0\UI.pdb
 C:\Users\ankit\Documents\Projects\AutomationFramework\UI\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\ankit\Documents\Projects\AutomationFramework\UI\bin\Debug\net9.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
 C:\Users\ankit\Documents\Projects\AutomationFramework\UI\bin\Debug\net9.0\Microsoft.Playwright.dll
+C:\Users\ankit\Documents\Projects\AutomationFramework\UI\bin\Debug\net9.0\Microsoft.Playwright.NUnit.dll
+C:\Users\ankit\Documents\Projects\AutomationFramework\UI\bin\Debug\net9.0\Microsoft.Playwright.TestAdapter.dll
 C:\Users\ankit\Documents\Projects\AutomationFramework\UI\bin\Debug\net9.0\Microsoft.TestPlatform.CoreUtilities.dll
 C:\Users\ankit\Documents\Projects\AutomationFramework\UI\bin\Debug\net9.0\Microsoft.TestPlatform.PlatformAbstractions.dll
 C:\Users\ankit\Documents\Projects\AutomationFramework\UI\bin\Debug\net9.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
@@ -457,17 +465,9 @@ C:\Users\ankit\Documents\Projects\AutomationFramework\UI\bin\Debug\net9.0\zh-Han
 C:\Users\ankit\Documents\Projects\AutomationFramework\UI\bin\Debug\net9.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 C:\Users\ankit\Documents\Projects\AutomationFramework\UI\bin\Debug\net9.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 C:\Users\ankit\Documents\Projects\AutomationFramework\UI\bin\Debug\net9.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-C:\Users\ankit\Documents\Projects\AutomationFramework\UI\obj\Debug\net9.0\UI.csproj.AssemblyReference.cache
-C:\Users\ankit\Documents\Projects\AutomationFramework\UI\obj\Debug\net9.0\UI.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\ankit\Documents\Projects\AutomationFramework\UI\obj\Debug\net9.0\UI.AssemblyInfoInputs.cache
-C:\Users\ankit\Documents\Projects\AutomationFramework\UI\obj\Debug\net9.0\UI.AssemblyInfo.cs
-C:\Users\ankit\Documents\Projects\AutomationFramework\UI\obj\Debug\net9.0\UI.csproj.CoreCompileInputs.cache
 C:\Users\ankit\Documents\Projects\AutomationFramework\UI\obj\Debug\net9.0\UI.csproj.Up2Date
 C:\Users\ankit\Documents\Projects\AutomationFramework\UI\obj\Debug\net9.0\UI.dll
 C:\Users\ankit\Documents\Projects\AutomationFramework\UI\obj\Debug\net9.0\refint\UI.dll
 C:\Users\ankit\Documents\Projects\AutomationFramework\UI\obj\Debug\net9.0\UI.pdb
 C:\Users\ankit\Documents\Projects\AutomationFramework\UI\obj\Debug\net9.0\UI.genruntimeconfig.cache
 C:\Users\ankit\Documents\Projects\AutomationFramework\UI\obj\Debug\net9.0\ref\UI.dll
-C:\Users\ankit\Documents\Projects\AutomationFramework\UI\bin\Debug\net9.0\Microsoft.Playwright.NUnit.dll
-C:\Users\ankit\Documents\Projects\AutomationFramework\UI\bin\Debug\net9.0\Microsoft.Playwright.TestAdapter.dll
-C:\Users\ankit\Documents\Projects\AutomationFramework\UI\obj\Debug\net9.0\UI.sourcelink.json

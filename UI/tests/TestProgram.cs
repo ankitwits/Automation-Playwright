@@ -44,17 +44,17 @@ public class TestProgram
     
     public async Task Testone()
   {
-    var settings = ConfigManager.Settings;
+//     var settings = ConfigManager.Settings;
 
-    var playwright = await Playwright.CreateAsync();
+//     var playwright = await Playwright.CreateAsync();
 
-    var browser = await BrowserFactory.CreateBrowser(playwright, settings.Browser);
+//     var browser = await BrowserFactory.CreateBrowser(playwright, settings.Browser);
 
-    var context = await browser.NewContextAsync();
-    var page = await context.NewPageAsync();
+//     var context = await browser.NewContextAsync();
+//     var page = await context.NewPageAsync();
 
-    await page.GotoAsync(settings.BaseUrl);
+//     await page.GotoAsync(settings.BaseUrl);
 
-   await page.PauseAsync();
+//    await page.PauseAsync();
 }
 }

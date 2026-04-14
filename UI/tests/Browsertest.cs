@@ -1,20 +1,14 @@
-using Microsoft.Playwright;
+
+using UI.Core;
+using NUnit.Framework;
 
 
-public class Browsertest
+public class Browsertest : BaseClass
 {
    [Test]
-    public  async Task BaseTes()
-    {
-        
-     var playwright = await Playwright.CreateAsync();
-     var browser = await playwright.Chromium.LaunchAsync(new BrowserTypeLaunchOptions
-    {
-        Headless = false
-    });;
-     var context = await browser.NewContextAsync();
-     var page = await context.NewPageAsync();
-
+    public  async Task BaseTest()
+    {       
+  
      await page.GotoAsync("https://www.youtube.com/");
      await page.PauseAsync();
 

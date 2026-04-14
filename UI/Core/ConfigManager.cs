@@ -1,6 +1,7 @@
 using System.Text.Json;
+namespace UI.core;
 
-public static class ConfigManager
+    public static class ConfigManager
 {
     private static TestSettings? _settings;
 
@@ -16,5 +17,5 @@ public static class ConfigManager
             return _settings;
         }
     }
-    
+
 }
