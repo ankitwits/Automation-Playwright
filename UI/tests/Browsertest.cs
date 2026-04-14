@@ -3,7 +3,7 @@ using UI.Core;
 using NUnit.Framework;
 
 
-public class Browsertest : BaseClass
+public class Browsertest : BaseClassTest
 {
    [Test]
     public  async Task BaseTest()
