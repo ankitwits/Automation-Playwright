@@ -109,6 +109,59 @@ public class Program
     }
 
 
+    [Test]
+    public async Task SmallestSubArray()
+    {
+        int[] a = {2,3,1,2,4,3};
+        int target =7;     
+        int left=0;
+        int right=0;
+        int min=0;
+        int sum=0;
+
+        for(right =0; right<a.Length;right++)
+        {
+            sum+=a[right];
+
+            while(sum>=target)
+            {
+                min = Math.Min(min, right-left+1);
+                sum =a[left];
+                left++;
+                
+
+            }
+            
+
+        }
+
+    
+
+
+    }
+
+
+    [Test]
+    public async Task ResversString()
+    {
+
+        string str = "Helloankit";
+
+        Stack<char> stack = new Stack<char>();
+
+        foreach(var c in str)
+        {
+            stack.Push(c);
+            
+
+        }        
+        
+        
+    }
+
+
+
+
 }
 
 
