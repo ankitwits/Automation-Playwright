@@ -15,7 +15,7 @@ public class MovingScrollbar
 
     {
      var playwright = await Playwright.CreateAsync();
-     var browser = await playwright.Chromium.LaunchAsync(new BrowserTypeLaunchOptions
+     var browser = await playwright.Chromium.LaunchAsync(new BrowserTypeLaunchOptions()
     {
         Headless = false
     });

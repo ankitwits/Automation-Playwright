@@ -17,7 +17,7 @@ public class Program
 
     public async Task Palindrom()
     {
-        string str = "abcba";
+        string str = "abcdeedcba";
         StringBuilder str2 = new StringBuilder();
         int left = 0;
         int right = str.Length - 1;
@@ -146,6 +146,7 @@ public class Program
     {
 
         string str = "Helloankit";
+        string str2= "";
 
         Stack<char> stack = new Stack<char>();
 
@@ -155,6 +156,8 @@ public class Program
             
 
         }        
+
+
         
         
     }
