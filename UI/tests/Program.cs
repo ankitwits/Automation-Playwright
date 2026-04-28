@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using Microsoft.Playwright;
 using NUnit.Framework;
@@ -135,6 +136,13 @@ public class Program
 
         }
 
+
+       
+        
+
+            
+    
+
     
 
 
@@ -160,6 +168,47 @@ public class Program
 
         
         
+    }
+
+
+
+    [Test]
+
+    public async Task Secondlargest()
+    {
+
+        int[] a ={2,5,1,50,20};
+        int Length = a.Length;
+        int largest =-1;
+        int secondlargest =-1;
+
+        for(int i =0; i<Length; i++)
+        {
+            if(a[i]>largest)
+            {
+                secondlargest= largest;
+                largest= a[i];
+                
+
+            }
+
+           else if(a[i]<largest && a[i]>secondlargest)
+            {
+                secondlargest = a[i];
+            }
+
+           
+            
+           
+
+
+        }
+         Console.WriteLine(secondlargest);
+
+        
+
+
+
     }
 
 
